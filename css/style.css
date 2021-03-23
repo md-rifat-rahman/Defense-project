@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: calc(50% - 30px);
+    top: 8px;
+}
+
+.background {
+    background-color: #D1058A;
+}
+
+#logo_image {
+    height: 70px;
+    width: 70px;
+}
