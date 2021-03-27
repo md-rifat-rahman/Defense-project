@@ -45,10 +45,13 @@
 
 
 /*  Book item css start from here */
-.bangla-cover,
-.english-cover,
-.math-cover {
+.subject-cover-image {
     width: 110%;
+    transition: 2s;
+}
+
+.subject-cover-image:hover {
+    width: 125%;
 }
 
 /* Book item end here */
