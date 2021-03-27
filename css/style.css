@@ -3,8 +3,10 @@
     padding: 0;
 }
 
+/* Navigation Css Start  */
 .navbar-brand {
-    position: absolute;
+    position: relative;
+    height: 50px;
     left: calc(50% - 30px);
     top: 8px;
 }
@@ -17,3 +19,53 @@
     height: 70px;
     width: 70px;
 }
+
+.nav-link {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    background-color: #F3A61D;
+    color: black;
+}
+
+/* Navigation Css End Here  */
+
+/* Slider Css Start from here  */
+
+.carousel-inner img {
+    width: 100%;
+    height: 90vh;
+    padding-top: 26px;
+}
+
+/* slider css end here  */
+
+
+/*  Book item css start from here */
+.bangla-cover,
+.english-cover,
+.math-cover {
+    width: 110%;
+}
+
+/* Book item end here */
+
+
+/* Footer Section start from here  */
+
+.copyright {
+    background-color: gray;
+}
+
+.copyright_text {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: ghostwhite;
+}
+
+/*  Footer section end here  */
